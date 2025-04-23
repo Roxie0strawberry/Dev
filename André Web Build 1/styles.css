@@ -8,7 +8,7 @@
         font-style: normal;
     }
     nav{
-        background-color: blanchedalmond;
+        background-color: blanchedalmond!important;
         color: black!important;
     }
     
@@ -18,7 +18,61 @@
         font-style: normal;
         
     }
-    a{
+    a,span{
         color: green;
     }
+}
+
+.style-border{
+    border-style: solid;
+    border-color: black;
+    border-radius:15px ;
+}
+
+.nav-off-menu{
+    background-color: #ffebcd !important;
+    font-size: 30px;
+    color: black!important;
+    max-width: 250px;
+
+}
+.offcanvas{
+    max-width: 250px;
+}
+.offcanvas-header{
+    max-width: 250px; 
+}
+
+.offcanvas-body{
+    flex-grow: 0!important;
+    max-width: 250px;
+}
+
+.base-style{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.xxl-padding{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.xxl-font{
+    font-size: 25px!important;
+}
+
+.wrapper{
+    
+    background: blanchedalmond;
+    height: 40px;
+    text-align: right;
+}
+
+.marquee {
+    white-space: nowrap;
+    -webkit-animation: righttoLeft 4s linear;
+    color: black!important;
+    font-size: 19px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    overflow:hidden
 }
