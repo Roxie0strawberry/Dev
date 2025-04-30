@@ -8,7 +8,7 @@
         font-style: normal;
     }
     nav{
-        background-color: blanchedalmond!important;
+        background-color: #ffebcd!important;
         color: black!important;
     }
     
@@ -79,6 +79,7 @@
 
 .text-smolsize{
     font-size: 15px;
+    font-weight: 700;
 }
 .text-bigboy{
     font-size:calc(2rem + 4.5vw);
