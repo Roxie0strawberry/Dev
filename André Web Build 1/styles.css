@@ -78,12 +78,12 @@
 }
 
 .text-smolsize{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
 }
 .text-bigboy{
     font-size:calc(2rem + 4.5vw);
-    text-shadow: 4px 9px blanchedalmond;
+    text-shadow: 4px 9px #ffebcd;
 }
 
 
